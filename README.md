@@ -53,7 +53,7 @@ MongoDB
 Stripe account
 Cloudinary account
 Installation
-git clone https://github.com/yourusername/hirecore-api.git
+git clone https://github.com/aliezzat143/hirecore-api.git
 cd hirecore-api
 npm install
 Environment Variables
