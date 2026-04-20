@@ -9,74 +9,127 @@ This project is designed to simulate a real-world SaaS backend and demonstrate f
 
 ⚙️ Tech Stack
 Backend: Node.js, Express.js
+
 Database: MongoDB (Mongoose)
+
 Real-time: Socket.IO
+
 Payments: Stripe (Webhooks)
+
 Media Storage: Cloudinary
-Authentication: JWT (Access + Refresh Tokens)
+
+Authentication: JWT
+
 Other: REST APIs, MVC Architecture
+
 ✨ Features
+
 🔐 Authentication & Security
+
 JWT-based authentication (access & refresh tokens)
+
 Role-based access control (Client / Freelancer / Admin)
+
 Password hashing & secure credential handling
+
 Rate limiting & input validation
+
 💼 Job Management
 Create, update, and delete job postings
+
 Freelancer bidding / acceptance system
+
 Job status tracking (open, in-progress, completed)
+
 💬 Real-Time Messaging
+
 One-to-one chat system using Socket.IO
+
 Live message updates
+
 Conversation tracking per job
+
 💳 Payments Integration
+
 Secure payments using Stripe
+
 Webhook handling for payment confirmation
+
 Transaction tracking per job
+
 🖼️ Media Uploads
+
 File/image uploads via Cloudinary
+
 Secure storage and retrieval
+
 📊 System Design
+
 Modular MVC architecture
+
 Centralized error handling
+
 Logging system for debugging and monitoring
+
 🧠 Architecture Overview
+
 Client → REST API → Controllers → Services → Database (MongoDB)
                      ↘ External Services:
+                     
                         - Stripe (Payments)
+                        
                         - Cloudinary (Media)
+                        
                         - Socket.IO (Real-time)
 🚀 Getting Started
+
 Prerequisites
+
 Node.js (v16+)
+
 MongoDB
+
 Stripe account
+
 Cloudinary account
+
 Installation
+
 git clone https://github.com/aliezzat143/hirecore-api.git
+
 cd hirecore-api
+
 npm install
+
 Environment Variables
 
 Create a .env file in the root directory:
 
 PORT=3000
+
 MONGO_URI=your_mongodb_uri
+
 JWT_SECRET=your_jwt_secret
+
 STRIPE_SECRET_KEY=your_stripe_secret
+
 STRIPE_WEBHOOK_SECRET=your_webhook_secret
+
 CLOUDINARY_CLOUD_NAME=your_name
+
 CLOUDINARY_API_KEY=your_key
+
 CLOUDINARY_API_SECRET=your_secret
+
 Run the Server
+
 npm run dev
+
 📡 API Usage
 
 You can test endpoints using:
 
 Postman
-
-A full API collection will be added soon.
 
 ## 📡 API Collection
 
